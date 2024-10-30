@@ -1,0 +1,24 @@
+.kz-mg-section-input-tips {
+    color: gray;
+}
+
+img#kz-mg-runner-runner-img-1-preview, img#kz-mg-runner-runner-img-2-preview, img#kz-mg-runner-runner-img-jump-preview, img#kz-mg-runner-runner-img-goal-preview {
+    width: 40px;
+    height: 50px;
+}
+
+img#kz-mg-runner-goal-img-preview {
+    width: 70px;
+    height: 300px;
+}
+
+img#kz-mg-runner-obs_img_1-preview, img#kz-mg-runner-obs_img_2-preview {
+    width: 20px;
+    height: 40px;
+}
+
+img#kz-mg-runner-bg_img-preview {
+    width: 100%;
+    height: auto;
+    max-width: 600px;
+}

@@ -1,0 +1,86 @@
+#kz-mg-runner-sns {
+    transition: opacity 0.4s;
+}
+
+#kz-mg-runner-sns.off {
+    opacity: 0;
+}
+
+#kz-mg-runner-sns.off a {
+    pointer-events: none;
+}
+
+#kz-mg-runner-sns-links a img {
+    width: 30px;
+}
+
+#kz-mg-runner-sns-links a {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#kz-mg-runner-sns-links a:hover {
+    box-shadow: none;
+    border: none;
+}
+
+#kz-mg-runner-sns {
+    margin-top: 16px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#kz-mg-runner-sns > p {
+    font-weight: bold;
+    text-decoration: underline;
+    margin-bottom: 10px;
+}
+
+#kz-mg-runner-sns-save {
+    padding: 7px 16px;
+    text-decoration: none !important;
+    box-shadow: none;
+    border: none;
+    border-radius: 10px;
+    background: green;
+    color: white;
+    font-size: 12px;
+    margin: auto 3px 8px;
+}
+
+#kz-mg-runner-wrap {
+    overflow-x: hidden;
+    max-width: 600px;
+    margin: auto;
+}
+
+#kz-mg-runner-wrap[data-status=goal] {
+    position: relative;
+}
+
+#kz-mg-runner-wrap[data-status=goal] #kz-mg-runner-goal-text {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 96px;
+    height: 0;
+    line-height: 1em;
+}
+
+#kz-mg-runner-wrap[data-status=goal] #kz-mg-runner-goal-text::after {
+    content: 'Click Here!';
+    display: block;
+}
+
+#kz-mg-runner-goal-img {
+    margin: auto;
+}
+
+@media (max-width: 640px) {
+    #kz-mg-runner-wrap[data-status=goal] #kz-mg-runner-goal-text::after {
+        content: 'Tap Here!';
+    }
+}
